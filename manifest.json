@@ -1,0 +1,26 @@
+{
+    "name": "F-soft Facebook",
+    "version": "1.0",
+    "description": "a little chrome extension for access facebook social when i am working in FPT-Software :D",
+    "permissions": ["webRequest","*://facebook.com/*", "*://www.facebook.com/*", "webRequestBlocking", "tabs", "activeTab", "declarativeContent"],
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": true
+    },
+    "page_action": {
+        "default_icon": {
+            "16": "images/icon16.png",
+            "32": "images/icon32.png",
+            "48": "images/icon48.png",
+            "128": "images/icon128.png"
+        },
+        "default_title": "Fsoft-auto redirect facebook!"
+    },
+    "icons": {
+        "16": "images/icon16.png",
+        "32": "images/icon32.png",
+        "48": "images/icon48.png",
+        "128": "images/icon128.png"
+    },
+    "manifest_version": 2
+}
